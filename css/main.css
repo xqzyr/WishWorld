@@ -5,7 +5,7 @@
     font-family: Segoe UI, sans-serif;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1400px) {
     .pageExceptBottom {
         margin: 0 10%;
     }
@@ -36,4 +36,13 @@ h3 {
 
 #logo {
     padding: 1% 0 15% 0;
+}
+
+.slogan {
+    margin-bottom: 2%;
+}
+
+.sloganSubtext {
+    margin-bottom: 2%;
+    font-size: 22px;
 }
