@@ -5,12 +5,3 @@
     color: white;
     font-family: Segoe UI, sans-serif;
 }
-
-.mainContainer {
-    margin: 0 10% 0 10%;
-}
-
-#logo {
-    margin: 5%;
-    width: min(90vw, 200px);
-}
