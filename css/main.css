@@ -1,7 +1,39 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #000;
     color: white;
     font-family: Segoe UI, sans-serif;
+}
+
+@media only screen and (min-width: 1000px) {
+    .pageExceptBottom {
+        margin: 0 10%;
+    }
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.pageExceptBottom {
+    padding: 2% 5%;
+}
+
+.mainContainer {
+    background: linear-gradient(
+            to right,
+            rgb(0, 0, 0),
+            rgba(0, 0, 0, 0.333),
+            rgb(0, 0, 0)
+        ),
+        url("../images/topBackground.png") right center / cover no-repeat;
+    padding-bottom: 20%;
+}
+
+#logo {
+    padding: 1% 0 15% 0;
 }
