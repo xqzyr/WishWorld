@@ -1,5 +1,6 @@
 .showcase {
     margin-top: 5vh;
+    margin-bottom: 5vh;
     text-align: center;
 }
 
@@ -40,4 +41,34 @@
 .image {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0, 0.6)),
         url(/images/image.jpg);
+}
+
+.featureFirst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featureFirstText {
+    flex: 2;
+    margin-right: 15%;
+}
+
+.featureFirstImage {
+    flex: 1;
+}
+
+.featureSecond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featureSecondText {
+    flex: 2;
+    margin-left: 15%;
+}
+
+.featureSecondImage {
+    flex: 1;
 }

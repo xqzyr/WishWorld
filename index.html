@@ -72,28 +72,41 @@
 
             <div class="feature">
                 <div class="featureFirst">
-                    <h2 class="featureHeading">
-                        Pick a Shoutout. Go from Fan to Friend!
-                    </h2>
-                    <p class="featureContent">
-                        Or collaborator. Or advisor. Your stars are looking for
-                        conversations. With you. Look out for Artist shoutouts
-                        with specific requirements. Reach out. Who knows where
-                        that might lead to?
-                    </p>
-                    <img src="images/speaker.svg" alt="speaker" />
+                    <div class="featureFirstText">
+                        <h2 class="featureHeading">
+                            Pick a Shoutout. Go from Fan to Friend!
+                        </h2>
+                        <p class="featureContent">
+                            Or collaborator. Or advisor. Your stars are looking
+                            for conversations. With you. Look out for Artist
+                            shoutouts with specific requirements. Reach out. Who
+                            knows where that might lead to?
+                        </p>
+                    </div>
+                    <img
+                        class="featureFirstImage"
+                        src="images/speaker.svg"
+                        alt="speaker"
+                    />
                 </div>
+
                 <div class="featureSecond">
-                    <h2 class="featureHeading">
-                        Oh, and the Owner's Lounge is this way!
-                    </h2>
-                    <p class="featureContent">
-                        Like business class lounges, but better. Meet other
-                        handpicked investors and collectors in an exclusive
-                        club. Show off, win gifts, exclusive experiences, or
-                        life-altering discoveries. Who's to say?
-                    </p>
-                    <img src="images/handshake.svg" alt="handshake" />
+                    <img
+                        class="featureSecondImage"
+                        src="images/handshake.svg"
+                        alt="handshake"
+                    />
+                    <div class="featureSecondText">
+                        <h2 class="featureHeading">
+                            Oh, and the Owner's Lounge is this way!
+                        </h2>
+                        <p class="featureContent">
+                            Like business class lounges, but better. Meet other
+                            handpicked investors and collectors in an exclusive
+                            club. Show off, win gifts, exclusive experiences, or
+                            life-altering discoveries. Who's to say?
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -144,14 +157,15 @@
                 <p class="emailPromtMessage">
                     Join the waitlist for earliest access
                 </p>
-                <div class="emailList">
+                <form action="">
                     <input
-                        type="text"
+                        type="email"
+                        id="email"
                         placeholder="Enter Email Address"
-                        id="enterEmail"
+                        name="email"
                     />
-                    <button class="joinEmailList">Join Waitlist</button>
-                </div>
+                    <button class="submitEmail">Join Waitlist</button>
+                </form>
             </div>
             <footer>
                 <div class="footer">
