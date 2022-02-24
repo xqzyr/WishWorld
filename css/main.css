@@ -5,7 +5,7 @@
     font-family: Segoe UI, sans-serif;
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1024px) {
     .pageExceptBottom {
         margin: 0 10%;
     }
@@ -32,6 +32,8 @@ h3 {
         ),
         url("../images/topBackground.png") right center / cover no-repeat;
     padding-bottom: 20%;
+    height: 70vh;
+    position: relative;
 }
 
 #logo {
@@ -45,4 +47,33 @@ h3 {
 .sloganSubtext {
     margin-bottom: 2%;
     font-size: 22px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+#email {
+    padding: 13px;
+    width: 80%;
+    border-radius: 0 10px;
+    color: black;
+    outline: none;
+}
+
+.submitEmail {
+    padding: 14px;
+    border: none;
+    border-radius: 0 10px;
+    background-color: rgba(154, 0, 86);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 770px) {
+    #email {
+        width: 30vw;
+    }
 }
