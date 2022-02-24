@@ -3,6 +3,7 @@
     padding: 0;
     color: white;
     font-family: Segoe UI, sans-serif;
+    box-sizing: border-box;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -17,6 +18,10 @@ h2 {
 
 h3 {
     font-size: 36px;
+}
+
+p {
+    font-size: 20px;
 }
 
 .pageExceptBottom {
