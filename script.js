@@ -1,15 +1,13 @@
-var accordions = document.getElementsByClassName("accordion");
+var faqItems = document.getElementsByClassName("faqItem");
 
-
-for (var i = 0; i < accordions.length; i++) {
-    accordions[i].onclick = () => {
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight) {
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    }
-  }
+for (var i = 0; i < faqItems.length; i++) {
+    faqItems[i].addEventListener("click", function () {
+        this.children[0].classList.toggle('is-open');
+        var content = this.children[0].nextElementSibling;
+        if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+        } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+        }
+    });
 }
-
-console.log(accordions[0].onclick);

@@ -15,10 +15,27 @@
     font-size: 18px;
 }
 
+.accordion::after {
+    content: "\f107";
+    font-family: fontawesome;
+    float: right;
+}
+
+.accordion.is-open::after {
+    content: "\f106";
+    font-family: fontawesome;
+    float: right;
+}
+
 .faqItem {
     padding: 15px;
     margin-bottom: 10px;
     outline: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.faqItem:hover {
+    outline: 1px solid rgba(255, 255, 255, 0.397);
 }
 
 .panel {
@@ -28,8 +45,4 @@
 
 .panel > p {
     font-size: 14px;
-}
-
-.faqItem:hover {
-    outline: 1px solid rgba(255, 255, 255, 0.397);
 }
