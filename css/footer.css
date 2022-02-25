@@ -1,0 +1,27 @@
+.bottomContainer {
+    background-color: rgb(154, 0, 86);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7vh 40px;
+}
+
+.bottomHeading {
+    margin-bottom: 5vh;
+}
+
+.emailPromtMessage {
+    margin-bottom: 3vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContent {
+    padding: 2vh;
+    font-size: 14px;
+}
